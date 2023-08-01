@@ -1,6 +1,3 @@
-
-
-
 function Productos(objeto) {
   this.nombre = objeto.nombre
   this.precio = objeto.precio 
@@ -106,7 +103,7 @@ const producto1 = new Productos(
         }
         break;
       case 4:
-        alert("Gracias por su compra.!");
+        alert("Gracias por su compra!");
         process.exit(0);
         break;
       default:
